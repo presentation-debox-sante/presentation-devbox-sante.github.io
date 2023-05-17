@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Présentations DevBox-Santé</title>
+    <link>/home/</link>
+    <description>Recent content in Homes on Présentations DevBox-Santé</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language><atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>/home/introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/home/introduction/</guid>
+      <description>La boîte à outils des intégrateurs et éditeurs de santéVous voulez : Alimenter/consulter le DMP Envoyer/recevoir des messages via la MSSanté Rechercher/vérifier l’INS (Identité National de Santé) Rechercher des professionnels ou des structures de santé Lire des cartes vitales Sécuriser vos échanges via des cartes CPS Authentifier les patients via l&amp;rsquo;application Carte Vitale La DevBox-santé rassemble tous ces outils.
+Vous voulez : Intégrer rapidement les services socles du SÉGUR Obtenir des agréments auprès du CNDA pour ces téléservices Définir une architecture adaptée à votre contexte Maitriser les coûts de développement L’expertise des développeurs de la DevBox-santé est à votre service.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/home/dmp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/home/dmp/</guid>
+      <description>DMPLe connecteur qui simplifie la connexion au DMP service socle de Mon Espace SantéLa DevBox-Santé DMP est un connecteur EAI homologué par le CNDA qui s&amp;rsquo;interface avec le DMP. Elle prend en charge la complexité de l&amp;rsquo;intégration et facilite ainsi aux éditeurs de logiciel de santé l&amp;rsquo;intéropérabilité avec le DMP en vous fournissant une API simple à utiliser.
+Différentes manières de s&#39;authentifierAuthentification directe en utilisant la CPS/CPEAuthentification indirecte en utilisant un certificat serveur.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/home/mssante/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/home/mssante/</guid>
+      <description>MS SantéLe connecteur de la messagerie santé réservée aux professionnels de santéDeux intégrations : Une intégration avec Mailiz Une intégration avec Apicrypt V2 (en cours de développement) </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/home/insi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/home/insi/</guid>
+      <description>Téléservice INSiLe connecteur d&#39;accès à l&#39;Identité National de SantéTrois opérations possibles : Recherche par carte vitale Recherche sans carte vitale Vérification INS (simple et de masse) Deux modes d&#39;authentification : L&amp;rsquo;authentification par carte CPS/CPE L&amp;rsquo;authentification par certificat établissement. </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/home/cps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/home/cps/</guid>
+      <description>Lecture carte CPS / CPxLa lecture d’une carte CPS grâce à de simples requêtes REST/JSONUne API Java ou REST, permet d’accéder à l’ensemble des possibilités de la carte CPS3. Notamment : authentifier un utilisateur signer gérer les différents lecteurs de carte et cartes disponibles &amp;hellip; </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/home/ecps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/home/ecps/</guid>
+      <description>Mobilité e-CPS / Pro Santé ConnectMise en œuvre de Pro Santé Connect au travers de nos/vos solutions.Après des expérimentations réussies, nous mettons en œuvre ProSantéConnect au sein de nos solutions SAAS. Notre valeur ajoutée : Expertise dans la mise en œuvre de solution d’authentifiation basée sur ProSantéConnect Prise en compte des possibilités de la e-CPS et de Pro Santé Connect pour les accès aux différents téléservices supportés par la DevBox-Santé </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/home/vitale/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/home/vitale/</guid>
+      <description>Lecture carte vitaleLa lecture d’une carte Vitale grâce à de simples requêtes REST/JSONQuelles informations sont disponibles ? En l’absence de carte CPS : accès aux informations administratives et d’ouverture de droits concernant l’assuré et les ayants droit qui lui sont rattachés. Cela permet notamment d’identifier l’assuré en vue d’accéder aux Téléservices intégrés de l’Assurance Maladie. En utilisant une carte CPS : accès à la totalité des informations, notamment celles liées au taux de couverture de l’assuré au regard de l’Assurance Maladie.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/home/apcv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/home/apcv/</guid>
+      <description>Mobilité ApCVIntégrer facilement le téléservice d&#39;authentification ApCVL’offre mobilité ApCV de la DevBox-santé comprend : Le module de lecture NFC Le module de lecture du QRCode le client d’appel au téléservice d’authentification </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/home/annuaire/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/home/annuaire/</guid>
+      <description>Annuaire SantéL’Annuaire géolocalisé des professionnels et structures de santéLa DevBox annuaire santé est un service qui permet : la recherche multicritères d’un professionnel de santé (par son nom, sa spécialité, son adresse, sa géolocalisation, …). la recherche multicritères d’un établissement de santé (par son nom, son adresse, sa géolocalisation, …). l’accès et la recherche dans les nomenclatures du NOS </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/home/doc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/home/doc/</guid>
+      <description>Structuration des donnnées de santéGénérer des documents CDA et des enveloppes XDM dans le cadre du Ségur de la santéÀ propos de l&amp;rsquo;outil : Parler de données de santé, implique de connaître un ensemble de normes. Êtes-vous familié des acronymes suivants : MOS, NOS, XDS, FHIR, HL7, HPRIM …Bien sûr, il est possible de construire une application de santé sans les connaitre, mais toute application de santé est vouée à communiquer au sein d’un écosystème afin de partager des données entre soignants.</description>
+    </item>
+    
+  </channel>
+</rss>
