@@ -10,7 +10,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="/reveal-js/css/reset.css">
 <link rel="stylesheet" href="/reveal-js/css/reveal.css">
-  <link rel="stylesheet" href="/test.min.847124e591e16ca2201e10c10d39e7e25c3c183b17709bc309f1314468d2d33e.css" id="theme"><link rel="stylesheet" href="/highlight-js/zenburn.min.css">
+  <link rel="stylesheet" href="/_.min.847124e591e16ca2201e10c10d39e7e25c3c183b17709bc309f1314468d2d33e.css" id="theme"><link rel="stylesheet" href="/highlight-js/zenburn.min.css">
     
   </head>
   <body>
@@ -25,18 +25,9 @@
 <h2 id="img-classlogo-header-srcdevcooplogo_white_orange_backgroundpng"><img class="logo-header" src="/devcoop/logo_white_orange_background.png"/></h2>
 <section data-noprocess data-shortcode-slide
       data-background-color="#bd6400">
-<h4 class="title">AIRMES Journée des utilisateurs 2024</h4>
-<p>13h30 à 14h00 : La DevBox-Santé </h4></p>
+<h4 class="title">ASDH Présentation PFI</h4>
 <ul>
-<li>
-<p><strong>Jérôme Brun</strong></p>
-<ul>
-<li>Expertise développement backend/frontend</li>
-<li>Plus de 20 ans d&rsquo;expérience dont 15 dans l&rsquo;intéropérabilité de santé</li>
-</ul>
-</li>
-<li>
-<p><strong>Laurent Forêt</strong></p>
+<li><strong>Laurent Forêt</strong>
 <ul>
 <li>Architecture logicielle</li>
 <li>25 ans d&rsquo;expérience dont 20 dans l&rsquo;intéropérabilité de santé</li>
@@ -55,7 +46,16 @@
 <ul>
 <li>Créée à Bordeaux en 2009</li>
 <li>Société de services et d&rsquo;ingénierie informatique implantée à Léognan</li>
-<li>Société <strong>coopérative</strong> dont chaque collaborateur est un associé qui participe aux orientations stratégiques de la société.</li>
+<li>Accompagne EMA dans ces travaux d&rsquo;intéropérabilité depuis 2011
+<ul>
+<li>2011 api DMPC</li>
+<li>2013 alimentation CRBIO</li>
+<li>2019 authentification CPS</li>
+<li>2021 INSi</li>
+<li>2023 SÉGUR vague 1</li>
+<li>2024/25 SÉGUR vague 2</li>
+</ul>
+</li>
 <li>Depuis 2020 société éditrice de la <strong>DevBox-Santé</strong></li>
 </ul>
 
@@ -151,61 +151,46 @@
 <section data-shortcode-section>
 <section data-noprocess data-shortcode-slide
       data-background-color="#278ef6">
-<h4 id="h4-classtitleair-souhaitait-dans-leur-solution-airmes-h4"><h4 class="title">AIR souhaitait dans leur solution AIRMES :</h4></h4>
+<h4 id="h4-classtitleles-fonctions-dun-dpi-dossier-patient-informatiseh4"><h4 class="title">Les fonctions d&rsquo;un DPI (DOSSIER PATIENT INFORMATISE)</h4></h4>
 <br>
 <ul>
-<li>Alimenter/consulter le DMP</li>
-<li>Envoyer/recevoir des messages via la MSSanté</li>
+<li>Consulter le DMP</li>
 <li>Rechercher/vérifier l’INS (Identité National de Santé)</li>
 <li>Rechercher des professionnels ou des structures de santé</li>
+<li>S&rsquo;interopérer avec les PFI (PLATEFORME D’INTERMEDIATION) compatible SÉGUR
+<ul>
+<li>Alimenter le DMP</li>
+<li>Envoyer/recevoir des messages via la MSSanté</li>
+</ul>
+</li>
 </ul>
 <br>
-<p>==&gt; AIR a choisi la solution DevBox-Santé et DEVCOOP pour les accompagner</p>
-</section>
+<h2 id="-ema-a-choisi-la-solution-devbox-santé-pour-son-intégration-dpi-ségurvague-2">==&gt; EMA a choisi la solution DevBox-Santé pour son intégration DPI SÉGUR vague 2</h2>
 <section data-noprocess data-shortcode-slide
       data-background-color="#f9faff">
   <div>
-    <h4 class="title">Nous avons défini ensemble une architecture :</h4>
+    <h4 class="title">Les Flux d'interopérabilité SÉGUR</h4>
   </div>
   <div>
-        <img src="architecture-plantuml2.png" height="500px"/>
-  </div>
-</section>
-<section data-noprocess data-shortcode-slide
-      data-background-color="#f9faff">
-  <div>
-    <h4 class="title">Qui permet la diffusion vers le DMP et la MSS :</h4>
-  </div>
-  <div>
-        <img src="diffusion-airmes.png" height="500px"/>
+        <img src="flux-pfi.png" height="500px"/>
   </div>
 </section>
 <section data-noprocess data-shortcode-slide
       data-background-color="#f9faff">
   <div>
-    <h4 class="title">Mais aussi la consultation du DMP :</h4>
+    <h4 class="title">Mise en œuvre dans Hemadialyse</h4>
   </div>
   <div>
-        <img src="consultation-airmes.png" height="500px"/>
+        <img src="hema_pfi.svg" height="500px"/>
   </div>
 </section>
 <section data-noprocess data-shortcode-slide
-      data-background-color="#278ef6">
-  <div>
-    <h4 class="title">La solution AIRMES a pu obtenir les différents agréments CNDA :</h4>
+      data-background-color="#f9faff">
+  <div>Proposition : La DevBox-santé as PFI</h4>
   </div>
   <div>
-        <img src="CNDA_resultat.png"/>
+        <img src="hemadialyse.svg" height="500px"/>
   </div>
-</section><section>
-<div>
-    <h4 class="title">Et finalement le référencement SÉGUR:</h4>
-  </div>
-  <div>
-        <img src="SEGUR_resultat.png"/>
-  </div>
-</section><section>
-<h1 id="conclusion">Conclusion</h1>
 
 </section>
 </section>

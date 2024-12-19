@@ -8,6 +8,8 @@
   </url><url>
     <loc>/home/introduction/</loc>
   </url><url>
+    <loc>/specific/4842ecdc-216e-4fa5-9f17-c11be3a0ea82/asdr/</loc>
+  </url><url>
     <loc>/tarifs/</loc>
   </url><url>
     <loc>/airmes/devbox-sante/</loc>
@@ -16,9 +18,13 @@
   </url><url>
     <loc>/home/dmp/</loc>
   </url><url>
+    <loc>/specific/4842ecdc-216e-4fa5-9f17-c11be3a0ea82/asdr/devbox-sante/</loc>
+  </url><url>
     <loc>/airmes/airmes-int/</loc>
   </url><url>
     <loc>/home/mssante/</loc>
+  </url><url>
+    <loc>/specific/4842ecdc-216e-4fa5-9f17-c11be3a0ea82/asdr/integ/</loc>
   </url><url>
     <loc>/home/insi/</loc>
   </url><url>
@@ -43,6 +49,8 @@
     <loc>/categories/</loc>
   </url><url>
     <loc>/home/</loc>
+  </url><url>
+    <loc>/specific/</loc>
   </url><url>
     <loc>/tags/</loc>
   </url>
