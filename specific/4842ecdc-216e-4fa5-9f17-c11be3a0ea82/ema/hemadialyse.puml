@@ -1,0 +1,36 @@
+!theme aws-orange
+!define DEVBOX_COLOR #278ef5
+!define DMP_COLOR #35D9C0
+!define MSS_COLOR #DE5D80
+!define INS_COLOR #07A2CF
+!define CPS_COLOR #D34A3C
+!define VITALE_COLOR #5FD67A
+!define PSC_COLOR #ff7765
+!define APCV_COLOR #c6e66d
+!define ANNUAIRE_COLOR #7613e0
+!define DATA_COLOR #ffa800
+
+node "SIH" {
+
+  component "Hemadialyse" as hemaweb #5f9cbe  {
+      component "Fonction DPI Ségur vague 2 \n de la DevBox-Santé" as dpi DEVBOX_COLOR 
+  }
+
+  node "Fonction PFI" {
+      component "DevBox-Santé PFI segur vague 2" as devbox DEVBOX_COLOR {
+            [DevBox-Santé DMP] as dbx_dmp DMP_COLOR
+            [DevBox-Santé MSS] as dbx_mss MSS_COLOR
+      }
+  }
+}
+cloud "**DMP**" as DMP
+cloud "**Opérateur MSS**" as OperateurMSS
+
+
+dbx_dmp -- dbx_mss
+dpi -r-> dbx_dmp : Alimentation DMP (HL7)
+dpi -r-> dbx_mss : Envoi MSSanté (HL7)
+
+
+dbx_dmp <-r-> DMP
+dbx_mss <-r-> OperateurMSS : Envoi/Réception MSSanté (SMTP/IMAP en mTLS)
